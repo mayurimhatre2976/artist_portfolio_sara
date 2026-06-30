@@ -1,0 +1,271 @@
+/* ===========================
+   Google Font
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#FFF8F2;
+    color:#333;
+}
+
+/* ===========================
+   Navbar
+=========================== */
+
+.navbar{
+    padding:15px 0;
+}
+
+.navbar-brand{
+    font-size:28px;
+    color:#A67C52 !important;
+}
+
+.navbar-brand i{
+    color:#A67C52;
+}
+
+.nav-link{
+    color:#333 !important;
+    margin-left:15px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#A67C52 !important;
+}
+
+/* ===========================
+   Hero Section
+=========================== */
+
+.hero{
+    padding:80px 0;
+}
+
+.hero h5{
+    color:#8E6E53;
+    margin-bottom:10px;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:700;
+}
+
+.hero h1 span{
+    color:#A67C52;
+}
+
+.hero p{
+    margin:20px 0;
+    color:#555;
+    line-height:1.8;
+}
+
+.hero-btn{
+    background:#A67C52;
+    color:white;
+    padding:12px 30px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.hero-btn:hover{
+    background:#8E6E53;
+    color:white;
+}
+
+.hero-img{
+    width:400px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+/* ===========================
+   Artist Profile
+=========================== */
+
+.profile{
+    padding:80px 0;
+    background:#FDF4EC;
+}
+
+.profile h2{
+    font-weight:700;
+    color:#A67C52;
+}
+
+.profile-img{
+    width:330px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+.profile h3{
+    margin-bottom:20px;
+}
+
+.profile p{
+    line-height:1.8;
+}
+
+/* ===========================
+   Gallery
+=========================== */
+
+.gallery{
+    padding:80px 0;
+}
+
+.gallery h2{
+    color:#A67C52;
+    font-weight:700;
+}
+
+.gallery-card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.gallery-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.gallery-card img{
+    height:250px;
+    object-fit:cover;
+}
+
+/* ===========================
+   Work Process
+=========================== */
+
+.process{
+    padding:80px 0;
+    background:#FDF4EC;
+}
+
+.process h2{
+    color:#A67C52;
+    font-weight:700;
+}
+
+.process-card{
+    background:white;
+    padding:30px 20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+    height:100%;
+}
+
+.process-card:hover{
+    transform:translateY(-8px);
+}
+
+.process-card h1{
+    font-size:50px;
+}
+
+/* ===========================
+   Contact
+=========================== */
+
+.contact{
+    padding:80px 0;
+}
+
+.contact h2{
+    color:#A67C52;
+    font-weight:700;
+}
+
+.form-control{
+    padding:12px;
+    border-radius:10px;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border-color:#A67C52;
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+.footer{
+    background:#8E6E53;
+    color:white;
+    padding:20px 0;
+}
+
+.footer p{
+    margin:0;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:992px){
+
+.hero{
+    text-align:center;
+}
+
+.hero-img{
+    width:300px;
+    margin-top:40px;
+}
+
+.profile{
+    text-align:center;
+}
+
+.profile-img{
+    width:250px;
+    margin-bottom:30px;
+}
+
+}
+
+@media(max-width:576px){
+
+.hero h1{
+    font-size:38px;
+}
+
+.navbar-brand{
+    font-size:22px;
+}
+
+.hero-btn{
+    width:100%;
+}
+
+.gallery-card img{
+    height:220px;
+}
+
+.process-card{
+    margin-bottom:20px;
+}
+
+}
